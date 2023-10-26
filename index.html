@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discover Finland</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0055A4;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .grid-item {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #0055A4;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Discover Finland</h1>
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>Beautiful Nature</h2>
+            <p>Finland is known for its stunning natural landscapes, including lakes, forests, and the Northern Lights.</p>
+            <img src="finland-nature.jpg" alt="Finnish nature">
+        </div>
+
+        <div class="grid-item">
+            <h2>Culture and History</h2>
+            <p>Learn about Finland's rich culture and history, from the ancient Sami people to modern Finnish traditions.</p>
+            <img src="finland-culture.jpg" alt="Finnish culture">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Discover Finland. All rights reserved.
+    </footer>
+</body>
+</html>
